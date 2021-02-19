@@ -1,14 +1,6 @@
 main:   
-	addi  a0, x0, 1      # 1 = StdOut
-        la    a1, helloworld # load address of helloworld
-        addi  a2, x0, 13     # length of our string
-        addi  a7, x0, 64     # linux write system call
-        ecall                # Call linux to output the string
-
-
-        addi    a0, x0, 0   # Use 0 return code
-        addi    a7, x0, 93  # Service command code 93 terminates
-        ecall               # Call linux to terminate the program
-
+	li a7, 4	# assigning call number to print string
+	la a0, str	# a0 keeps the address of the string
+	ecall		# System call
 .data
-helloworld:      .ascii "Hello World!\n"
+str:      .string  "Hello World!\n" # String to print
