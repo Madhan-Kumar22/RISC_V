@@ -9,7 +9,7 @@ and appropriate comments have been provided with the assembly code.
 # Team Members:
 
 1) V Madhan Kumar, 191CS260, 8050157579, madhankumar.191cs260@nitk.edu.in 
-2) Vinesh S Talpankar, 191CS265, 9481835943,vinesh.191cv253@nitk.edu.in
+2) Vinesh S Talpankar, 191CS265, 9481835943, vinesh.191cv253@nitk.edu.in
 
 # Code contributions:
 
