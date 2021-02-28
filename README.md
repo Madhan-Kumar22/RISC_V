@@ -1,4 +1,4 @@
-#A1 - RISC-V Assembly Programming Assignment (CS250)
+# A1 - RISC-V Assembly Programming Assignment (CS250)
 
 Abstract:
 
